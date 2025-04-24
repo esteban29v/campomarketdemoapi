@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api")
 public class SaludoController {
 
-    @GetMapping("/saludo")
+    @GetMapping("/livenesprobe")
     public String saludar() {
-        return "¡Hola desde mi API en EC2! 🚀";
+        return "Service working properly! :)";
     }
 }
